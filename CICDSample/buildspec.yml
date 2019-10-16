@@ -3,7 +3,7 @@ env:
     variables:
         CACHE_CONTROL: "86400"
         BUILD_ENV: "prod"
-        S3_BUCKET : "cicdwildfly"
+        S3_BUCKET : "cicdoutputartifact"
         BUILD_FOLDER : "target"
 phases:
     install:
